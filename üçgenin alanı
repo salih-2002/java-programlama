@@ -1,0 +1,27 @@
+import java.util.Scanner;
+ 
+ 
+ 
+public class üçgeninalanı {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println("lütfen üçgenin taban uzunluğu:");
+        double  taban = input.nextDouble();
+        System.out.println("lütfen üçgenin tabana ait yüksekliği:");
+        double yükseklik=input.nextDouble();
+         double alan=(taban*yükseklik)/2;
+         System.out.println("üçgenin alanı;"+alan);
+       
+        
+        
+        
+        
+        
+        // TODO code application logic here
+    }
+    
+}
