@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class günbulma {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("haftanın kaçıncı günü olduğunu giriniz");
+        int gün=input.nextInt();
+        if(gün==1){
+            System.out.println("pazartesi");
+       
+    }
+        else if(gün==2){
+            System.out.println("salı");
+        }
+        else if(gün==3){
+            System.out.println("çarşamba");
+        }
+        else if(gün==4){
+            System.out.println("perşembe");
+        }
+        else if(gün==5){
+            System.out.println("cuma");
+        }
+        else if(gün==6){
+            System.out.println("cumartesi");
+        }
+        else if(gün==7){
+            System.out.println("pazar");
+        }
+        // TODO code application logic here
+    }
+    
+}
