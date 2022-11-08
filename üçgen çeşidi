@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class üçgençeşidi {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     Scanner input=new Scanner(System.in);
+     System.out.println("üçgenin a kenarını giriniz;");
+     double a=input.nextDouble();
+     System.out.println("üçgenin b kenarını giriniz");
+     double b=input.nextDouble();
+     System.out.println("üçgenin c kenarını giriniz");
+     double c=input.nextDouble();
+     if(a==b && b==c){
+         System.out.println("eşkenar üçgendir");
+         
+     }
+     else if(a==b && b!=c ||a==c && a!=b ||b==c && a!=c){
+         System.out.println("ikizkenar üçgendir");
+     }
+     else{
+         System.out.println("çeşitkenar üçgendir");
+     }
+         
+        // TODO code application logic here
+    }
+    
+}
