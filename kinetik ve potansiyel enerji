@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class ödev4 {
+    
+    
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println(" maddenin kütlesini giriniz");
+        double m=input.nextDouble();
+        System.out.println("maddenin hızını giriniz");
+        double v=input.nextDouble();
+           System.out.println("ke:"+0.5*m*v*v);
+        System.out.println("maddenin yerden yüksekliğini giriniz");
+        double h=input.nextDouble();
+           int g=10;
+          System.out.println("pe:"+m*g*h);
+          
+         
+  
+        
+                
+       
+               
+       
+        
+        
+        
+        
+        
+        
+        
+                
+        
+     
+        
+   
+        
+        
+        
+        
+        
+        // TODO code application logic here
+    }
+    
+}
