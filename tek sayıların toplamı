@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class teksayılarıntoplamı {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("lütfen n sayısını giriniz");
+        int n=input.nextInt();
+        int S=0;
+        int toplam=0;
+        while(n>0){
+             S=S+1;
+             toplam=toplam+S;
+        if(n%2==1){
+          System.out.println(+n);
+           
