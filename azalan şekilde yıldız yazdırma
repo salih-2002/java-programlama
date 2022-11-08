@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class azalanyıldız {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("satır sayısını giriniz");
+        
+        
+        int satır=input.nextInt();
+        for(int i=satır;i<=satır;i--){
+            for(int j=1; j<=i;j++){
+            
+              
+                        
+                        
+                
+                    
+                    
+                    
+                System.out.print("*");
+            }
+           
+            if(i==0){
+                break;
+            }
+            System.out.println();
+    }
+        }
+    }
+    
+
