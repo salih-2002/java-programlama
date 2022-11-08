@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class tambölen {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println("n sayısını giriniz");
+        int n=input.nextInt();
+        int S=0;
+        while(S<=n){
+                S=S+1;
+            if(n%S==0){
+            
+                System.out.println(+S);
+            }
+                
+        }
+        
+        // TODO code application logic here
+    }
+    
+}
