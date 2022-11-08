@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class çokgeniçaçısıbulma {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Scanner input=new Scanner (System.in) ;
+       System.out.println("lütfen çokgenin kenar sayısını giriniz");
+       int n=input.nextInt();
+       int açı=(n-2)*180/n;
+       System.out.println("lütfen çokgenin bir iç açısını hesapla;"+açı);
+        // TODO code application logic here
+    }
+    
+}
