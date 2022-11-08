@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class sayıyıtersyazdırma {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("bir sayı girin");
+        int sayı=input.nextInt();
+          System.out.print("Girdiğiniz sayinin tersten yazılısı ;");
+          int sayı_ters;
+        while(sayı>0){
+        System.out.print(+sayı%10);
+        sayı/=10;
+        sayı_ters=sayı%10;
+        
+        
+        
+        
+        // TODO code application logic here
+    }
+    
+}
+}
