@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class kareselsayılartoplamı {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+     Scanner input=new Scanner(System.in);
+     System.out.println("n sayısını giriniz");
+     int n=input.nextInt();
+     int kare;
+     int toplam=0;
+     for(int i =1;i<=n;i++){
+         kare=i*i;
+             toplam=toplam+i*i;
+             System.out.println(i);
+         }
+         System.out.println("toplamı hesapla;"+toplam);
+     }
+        
+        
+        
+        
+        // TODO code application logic here
+    }
+    
+
