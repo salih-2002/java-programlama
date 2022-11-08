@@ -1,0 +1,39 @@
+import static java.lang.Math.PI;
+import java.util.Scanner;
+
+public class işaretfonksiyonu {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println("x değerini giriniz");
+        int x=input.nextInt();
+        int signum;
+        signum=(int)(Math.pow(x,2)- 5*x + 3);
+        System.out.println("fonksiyonun işareti;");
+        if(signum>0){
+            System.out.println("1");
+        }
+        if(signum==0){
+            System.out.println("0");
+        }
+        if(signum<0){
+            System.out.println("-1");
+        }
+        
+        
+       
+       
+        
+           
+        
+        // TODO code application logic here
+    
+    
+
+    
+
+}
+}
