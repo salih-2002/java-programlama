@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class ödev5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println("lütfen iletkenin direncini giriniz");
+        double R=input.nextDouble();
+        System.out.println("lütfen iletkenin akımını giriniz");
+        double I=input.nextDouble();
+        System.out.println("lütfen iletkenin uçlarındaki gerilimi hesapla;"+I*R);
+        
+        
+        // TODO code application logic here
+    }
+    
+}
