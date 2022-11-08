@@ -1,0 +1,17 @@
+
+public class yaşbulma {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.println("lütfen doğum tarihinizi giriniz");
+        int dt=input.nextInt();
+        int yaş=(2022-dt);
+        System.out.println("yaşı hesapla;"+yaş);
+                
+        // TODO code application logic here
+    }
+    
+}
