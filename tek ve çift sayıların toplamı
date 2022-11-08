@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class tekçifttoplam {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("n sayısını girin");
+        int n=input.nextInt();
+        int s=1;
+        int toplam=0;
+        int tek_toplam=0;
+        int çift_toplam=0;
+        while(s<=n){
+            toplam=toplam+s;
+            if(s%2==0){
+                çift_toplam=çift_toplam+s;
+            }
+            else{
+                tek_toplam=tek_toplam+s;
+            }
+            s=s+1;
+                
+        }
+        System.out.println(+toplam);
+        System.out.println(+çift_toplam);
+        System.out.println(+tek_toplam);
+        // TODO code application logic here
+    }
+    
+}
