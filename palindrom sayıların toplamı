@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class palindromtamsayılarıntoplamı {
+
+ 
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("basamak sayısını giriniz");
+        int n=input.nextInt();
+        System.out.println(9*10^((n-1))/2);
+        
+    }
+    
+}
