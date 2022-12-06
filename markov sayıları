@@ -1,0 +1,21 @@
+public class markovsayıları {
+
+  
+    public static void main(String[] args) {
+        // TODO code application logic here
+        for (int i = 1; i <= 50; i++) {
+            for (int j =i; j <= 50; j++) { // çözüm için üç döngü kullandık.
+                  for (int k = j; k <= 50; k++) {
+                    if(i*i+j*j+k*k==3*i*j*k){      // aynı sayıların farklı kombinasyonlarının listelememesi için iç döngüleri dış döngüden başlattık.
+                        System.out.println(i+" "+j+" "+k);
+                    }
+             
+                    
+                }
+                
+            }
+            
+        }
+    }
+    
+}
