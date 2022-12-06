@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class girilenüstsınırakadarasalsayıbulma {
+
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+          Scanner input = new Scanner(System.in);
+        int sayac;
+        
+        System.out.println("Bir sayi giriniz: ");
+        int sayi = input.nextInt();
+        
+        while(sayi >= 2) { // en küçük asal sayı 2 olduğu için girilen üst sınırdan 2 ye kadar asal sayıların yazdırılması için while döngüsü kullandık.
+            
+            sayac = 0;
+            for(int i = 2; i < sayi; i++) // 2 den başlayarak sayılar bölünmeye başlanır.
+            {
+                if(sayi % i == 0) {
+                    sayac++;
+                }
+            }
+            if(sayac == 0) { // sayac 0 sa demektir ki sayı kendisinden başka hiçbir sayıya bölünmüyor dolayısıyla asal sayıdır.
+                System.out.println(sayi + " asal bir sayidir.");
+            }
+            sayi--;
+        }
+        
+         }
+        
+        }
