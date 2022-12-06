@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class mükemmelsayılar {
+
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("pozitif tam sayı giriniz");
+        int n=input.nextInt();
+        int toplam=0;
+        for(int i=1;i<n;i++){
+          
+            if(n%i==0){
+                toplam=toplam+i;
+                System.out.println(i);
+            }    
+            
+        }
+            if(toplam==n){
+                
+                System.out.println("mükemmel sayıdır");
+            }
+            else{
+                System.out.println("mükemmel sayı değildir");
+               
+            }  
+            
+        
+          
+         
+        
+        
+        
+       
+        
+        
+    }
+    
+}
