@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class bağdaşıksayılar {
+
+ 
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("iki basamaklı bir sayı giriniz");
+        int n=input.nextInt();
+        System.out.println("iki basamaklı bir sayı giriniz");
+        int x=input.nextInt();
+        int kalann;
+        int kalanx;
+            kalann=n%10;
+            n=n/10;
+              kalanx=x%10;
+            x=x/10;
+               if(kalann+kalanx==10 && n==x){
+            System.out.println("bağdaşık sayılardır");
+            
+        }
+        else{
+            System.out.println("bağdaşık sayılar değillerdir");
+        }
+    }
+    
+}
