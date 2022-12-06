@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class cullensayısı {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("terim sayısını giriniz");
+        int n=input.nextInt();
+        int sonuc;
+        System.out.print("cullen sayıları=");
+        System.out.println();
+        for(int i=0;i<n;i++){
+          
+         
+            System.out.println(Math.pow(2,i)*i+1);
+        
+            
+                  
+                            
+              
+            
+        
+            
+           
+        }
+         
+    }
+    
+}
