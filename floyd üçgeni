@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class floydüçgeni {
+
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input = new Scanner(System.in);
+        System.out.println("satır sayısını giriniz");
+          int row = input.nextInt();
+        System.out.println("floyd üçgeni");
+        System.out.println();
+         int s = 0;
+        for (int i = 1; i <= row; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                s = s + 1;
+                System.out.print(s + " ");
+
+            }
+            System.out.println(" ");
+
+        }
+     
+
+    }
+
+}
