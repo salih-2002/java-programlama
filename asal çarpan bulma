@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class asalçarpanbulma {
+
+  
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("bir sayı giriniz");
+        int sayı=input.nextInt();
+        for(int i=2;i<=sayı;i++){
+            if(sayı%i==0){
+                sayı=sayı/i;
+                System.out.println("girdiğiniz sayının asal çarpanları=");
+                System.out.println(i);
+                
+            }
+        }
+    }
+    
+}
