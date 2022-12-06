@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class altınüçgen
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("kısa kenarını giriniz");
+        double a=input.nextDouble();
+        double b; // b yi uzun kenar olarak tanımladık
+        b=a*(1+5^(1/2))/2.0; // uzun kenarın kısa kenara oranı altın oransa denklem böyle kurulmalıdır
+        System.out.println(a+" "+b+" "+b);
+    }
+    
+}
