@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class tribonacciserisi {
+
+ 
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("terim sayısını giriniz");
+        int n=input.nextInt();
+        int n1=1;
+        int n2=1;
+        int n3=2;
+        System.out.println(n1);
+        System.out.println(n2);
+        System.out.println(n3);
+        int n4;
+        for (int i = 1; i <= n-3; i++) {
+            n4=n1+n2+n3;
+            n1=n2;
+            n2=n3;
+            n3=n4;
+            System.out.println(n4);
+            
+            
+        }
+    }
+    
+}
