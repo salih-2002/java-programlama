@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class madhavaofsangamagrama {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("terim sayısını giriniz");
+        int n=input.nextInt();
+        double t=0;
+        for (int k = 0; k <= n-1; k++) {
+       
+            
+        }
+         System.out.println(Math.pow(12,0.5)*t);
+            
+    }
+    
+}
