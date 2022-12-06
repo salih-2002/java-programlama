@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class üstsınırakadartausayısı {
+
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("üst sınırı giriniz");
+        int n=input.nextInt();
+        int sayac;
+        System.out.println("tau sayıları=");
+        for (int i = 1; i <=n; i++) {
+           sayac=0;
+            for (int j = 1; j <=i; j++) {
+                  
+                if(i%j==0){
+                    sayac++;
+                }
+              
+                
+            }
+              if(i%sayac==0){
+                    System.out.println(i);
+                    
+                }
+            }
+          
+        
+    }
+    
+}
+ 
