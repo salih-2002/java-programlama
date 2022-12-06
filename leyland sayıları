@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class leylandsayıları {
+
+   
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner input=new Scanner(System.in);
+        System.out.println("x değerini giriniz");
+        int x=input.nextInt();
+        System.out.println("y değerini giriniz");
+        int y=input.nextInt();
+         System.out.println("leyland sayıları=");
+      
+         int sonuc;
+    
+        for(int i=2;i<=x;i++){
+            for(int j=i;j<=y;j++){
+              
+                System.out.println(Math.pow(i, j)+Math.pow(j, i));
+              
+              
+             
+              
+               
+                
+            }  
+                 
+            
+            
+           
+               
+            } 
+       
+        
+              
+        }
+        
+            
+       }     
